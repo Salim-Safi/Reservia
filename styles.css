@@ -132,7 +132,7 @@ h2{
 
 .filtre{
     display: flex;
-    margin-top: 20px;
+    margin: 20px 0px;
     align-items: baseline;
 }
 
@@ -246,8 +246,10 @@ h2{
 }
 
 .plus{
+    margin-top: 50px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -287,4 +289,73 @@ h2{
 .plus1{
     padding-bottom: 60px;
 }
+
+/***************** Activités *****************************/
+
+.section3{
+    margin: 50px 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.activite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.grande-activite{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    height: 600px;
+    border-radius: 25px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px #DBDBDB;
+    cursor: pointer;
+}
+
+.activite-img{
+    height: 530px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.activite-texte{
+    padding-left: 20px;
+}
+
+.double-activite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+    height: 600px;
+}
+
+.petite-activite{
+    box-shadow: 5px 5px 5px #DBDBDB;
+    height: 280px ;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.activite-img1{
+    height: 210px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+    margin-bottom: 20px;
+}
+
+
+/************ Footer ***********************/
 
