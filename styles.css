@@ -17,7 +17,18 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.flexrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+p{
+    margin: 0 0 10px 0;
+}
 
+h3{
+    margin: 0 0 10px 0;
+}
 /****************header*************/
 header{
     display: flex;
@@ -63,6 +74,7 @@ nav{
 .section1{
     height: 280px;
     width: auto;
+    margin-bottom: 20px;
 }
 
 h1{
@@ -169,5 +181,110 @@ h2{
     border-radius: 20px;
     margin-right: 10px;
 }
-/*********************Main********************/
+/********************* Hebergement********************/
+
+.section2{
+    display: flex;
+}
+
+.hebergement{
+    width: 70%;
+    height:auto;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    margin-right: 40px;
+    padding: 30px;
+}
+
+.populaire{
+    width: 30%;
+    height: auto;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.article{
+    display: flex;
+    flex-direction:row;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.sous-article{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    border: 6px solid white;
+    border-radius: 25px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px #DBDBDB;
+    cursor: pointer;
+}
+
+.article-img{
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.article-texte{
+    padding-left: 10px;
+}
+
+.etoilebleu{
+    color: #0065FC;
+}
+
+.etoilegris{
+    color: #F2F2F2;
+}
+
+.plus{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*************Les plus populaire*******************/
+
+.chart-size{
+    height: 30px;
+    width: 30px;
+}
+.article1{
+    display: flex;
+    flex-direction:column;
+    margin-top: 30px;
+}
+
+.sous-article1{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 170px;
+    border: 6px solid white;
+    border-radius: 25px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 5px #DBDBDB;
+    cursor: pointer;
+}
+
+.article-img1{
+    height: 170px;
+    width: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.plus1{
+    padding-bottom: 60px;
+}
 
