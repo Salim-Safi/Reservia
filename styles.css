@@ -587,6 +587,9 @@ footer h3{
     .filtre{
         flex-direction: column;
     }
+    .barre-recherche{
+        margin-top: 20px;
+    }
 
 
     /** Section2 **/
