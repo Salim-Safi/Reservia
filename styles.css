@@ -584,6 +584,9 @@ footer h3{
     #loupe{
         display: block;
     }
+    .filtre{
+        flex-direction: column;
+    }
 
 
     /** Section2 **/
