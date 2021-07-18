@@ -292,6 +292,10 @@ input[type="submit"]{
     cursor: pointer;
 }
 
+.prix{
+    font-weight:bold;
+}
+
 
 /**        Les plus populaire        **/
 
